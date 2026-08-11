@@ -1,5 +1,5 @@
 module expression_type_tb;
-    // Declare the registers
+     // Declare the registers
     reg [7:0] unsigned_val;
     reg signed [7:0] signed_val;
     initial begin
