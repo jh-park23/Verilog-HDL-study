@@ -6,7 +6,7 @@ module expression_bit_tb;
     reg [15:0] resultB;
     reg [15:0] a, b, c;
     reg [16:0] sum;
-    reg [3:0] x; //4-bit variable for base
+    reg [3:0] x;  //4-bit variable for base
     reg [5:0] y; // 6-bit variable for exponent
     reg [39:0] z; // 40-bit result storage
 
