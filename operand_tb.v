@@ -10,7 +10,7 @@ module operand_tb;
 
     initial begin
         // Initialize vectors
-        little_end_vector = 32'h12345678; // Example 32-bit value with LSB first
+        little_end_vector = 32'h12345678;  // Example 32-bit value with LSB first
         big_end_vector = 32'h87654321;
         dword = 64'hFEDCBA9876543210;
 
