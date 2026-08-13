@@ -1,0 +1,3 @@
+xvlog test_top.v mux2to1.v
+xelab test_top -s test_top
+xsim test_top -R
