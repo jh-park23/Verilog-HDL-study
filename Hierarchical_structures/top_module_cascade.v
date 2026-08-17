@@ -6,4 +6,4 @@ module  top_module_cascade #(parameter WIDTH = 8) (
     // Example Cascade Architecture
     mux2to1 #(.WIDTH(WIDTH)) mux_inst_0 (.out(out0), .a(a0), .b(b0), .sel(sel0));
     mux2to1 #(.WIDTH(WIDTH)) mux_inst_1 (.out(out1), .a(out0), .b(b1), .sel(sel1));
-endmodule
+endmodule 
