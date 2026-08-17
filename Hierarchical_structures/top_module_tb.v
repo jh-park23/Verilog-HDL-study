@@ -21,7 +21,7 @@ module top_module_tb;
         .sel0(sel0),
         .sel1(sel1),
         .out0(out0),
-        .out1(out1)
+        .out1(out1) 
     );
 initial begin
     $display("Cascade Top Test");
