@@ -1,4 +1,4 @@
 xvlog ./top_module_tb.v ./top_module_parallel.v ./top_module_cascade.v ./mux2to1.v
-xelab top_module_tb --debug wave
+xelab top_module_tb -debug wave
 #xsim top_module_tb -R # without waveform
 xsim top_module_tb -gui -wdb sim_top_module_tb.wdb # with waveform
