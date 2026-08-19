@@ -1,0 +1,3 @@
+xvlog macro_function_tb.v
+xelab macro_function_tb --debug wave
+xsim macro_function_tb -R #without waveform
