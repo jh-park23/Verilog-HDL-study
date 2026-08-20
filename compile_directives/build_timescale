@@ -1,0 +1,3 @@
+xvlog timescale_tb.v
+xelab timescale_tb --debug wave
+xsim timescale_tb -R #without waveform
