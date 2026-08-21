@@ -1,0 +1,4 @@
+xvlog sgdh_counter_tb.v sgdh_counter.v --include ./include
+xelab sgdh_counter_tb --debug wave
+#xsim sgdh_counter_tb -R #without waveform
+xsim sgdh_counter_tb -gui -wdb sim_sgdh_counter_tb.wdb #with waveform
